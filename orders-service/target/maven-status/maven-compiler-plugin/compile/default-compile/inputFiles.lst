@@ -1,0 +1,15 @@
+C:\Users\atomiccherry\IdeaProjects\shop-app\orders-service\src\main\java\com\example\shop\orders\config\OpenApiConfig.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\orders-service\src\main\java\com\example\shop\orders\controller\OrderController.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\orders-service\src\main\java\com\example\shop\orders\domain\InboxEvent.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\orders-service\src\main\java\com\example\shop\orders\domain\Order.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\orders-service\src\main\java\com\example\shop\orders\domain\OrderStatus.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\orders-service\src\main\java\com\example\shop\orders\domain\OutboxEvent.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\orders-service\src\main\java\com\example\shop\orders\dto\CreateOrderRequest.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\orders-service\src\main\java\com\example\shop\orders\exception\RestExceptionHandler.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\orders-service\src\main\java\com\example\shop\orders\OrdersServiceApplication.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\orders-service\src\main\java\com\example\shop\orders\repository\InboxEventRepository.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\orders-service\src\main\java\com\example\shop\orders\repository\OrderRepository.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\orders-service\src\main\java\com\example\shop\orders\repository\OutboxEventRepository.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\orders-service\src\main\java\com\example\shop\orders\service\OrderService.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\orders-service\src\main\java\com\example\shop\orders\service\OutboxPublisher.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\orders-service\src\main\java\com\example\shop\orders\service\PaymentStatusListener.java

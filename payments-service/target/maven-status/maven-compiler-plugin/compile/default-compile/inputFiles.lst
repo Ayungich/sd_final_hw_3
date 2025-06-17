@@ -1,0 +1,15 @@
+C:\Users\atomiccherry\IdeaProjects\shop-app\payments-service\src\main\java\com\example\shop\payments\config\OpenApiConfig.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\payments-service\src\main\java\com\example\shop\payments\controller\AccountController.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\payments-service\src\main\java\com\example\shop\payments\domain\Account.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\payments-service\src\main\java\com\example\shop\payments\domain\InboxEvent.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\payments-service\src\main\java\com\example\shop\payments\domain\OutboxEvent.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\payments-service\src\main\java\com\example\shop\payments\dto\CreateAccountRequest.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\payments-service\src\main\java\com\example\shop\payments\dto\TopUpRequest.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\payments-service\src\main\java\com\example\shop\payments\exception\RestExceptionHandler.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\payments-service\src\main\java\com\example\shop\payments\PaymentsServiceApplication.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\payments-service\src\main\java\com\example\shop\payments\repository\AccountRepository.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\payments-service\src\main\java\com\example\shop\payments\repository\InboxEventRepository.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\payments-service\src\main\java\com\example\shop\payments\repository\OutboxEventRepository.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\payments-service\src\main\java\com\example\shop\payments\service\AccountService.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\payments-service\src\main\java\com\example\shop\payments\service\OutboxPublisher.java
+C:\Users\atomiccherry\IdeaProjects\shop-app\payments-service\src\main\java\com\example\shop\payments\service\PaymentListener.java

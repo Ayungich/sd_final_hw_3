@@ -1,0 +1,34 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: orders-service
+          uri: http://orders-service:8081
+          predicates:
+            # Всё, что начинается с /orders/
+            - Path=/orders/**
+            # Swagger UI main page
+            - Path=/orders/swagger-ui.html
+            # Swagger UI static assets
+            - Path=/orders/swagger-ui/**
+            - Path=/orders/webjars/**
+            # OpenAPI JSON and config
+            - Path=/orders/v3/api-docs/**
+            - Path=/orders/v3/api-docs
+            - Path=/orders/v3/api-docs/swagger-config
+          filters:
+            # Убираем префикс /orders перед проксированием
+            - RewritePath=/orders/(?<segment>.*), /${segment}
+
+        - id: payments-service
+          uri: http://payments-service:8082
+          predicates:
+            - Path=/accounts/**
+            - Path=/accounts/swagger-ui.html
+            - Path=/accounts/swagger-ui/**
+            - Path=/accounts/webjars/**
+            - Path=/accounts/v3/api-docs/**
+            - Path=/accounts/v3/api-docs
+            - Path=/accounts/v3/api-docs/swagger-config
+          filters:
+            - RewritePath=/accounts/(?<segment>.*), /${segment}

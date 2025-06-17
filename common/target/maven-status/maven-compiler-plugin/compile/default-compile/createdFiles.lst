@@ -1,0 +1,2 @@
+com\example\shop\common\event\PaymentStatusEvent.class
+com\example\shop\common\event\OrderCreatedEvent.class

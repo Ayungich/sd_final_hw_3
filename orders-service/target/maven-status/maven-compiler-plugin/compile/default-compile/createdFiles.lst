@@ -1,0 +1,15 @@
+com\example\shop\orders\domain\OrderStatus.class
+com\example\shop\orders\domain\OutboxEvent.class
+com\example\shop\orders\OrdersServiceApplication.class
+com\example\shop\orders\repository\OrderRepository.class
+com\example\shop\orders\service\OutboxPublisher.class
+com\example\shop\orders\repository\OutboxEventRepository.class
+com\example\shop\orders\domain\Order.class
+com\example\shop\orders\domain\InboxEvent.class
+com\example\shop\orders\service\OrderService.class
+com\example\shop\orders\controller\OrderController.class
+com\example\shop\orders\dto\CreateOrderRequest.class
+com\example\shop\orders\repository\InboxEventRepository.class
+com\example\shop\orders\service\PaymentStatusListener.class
+com\example\shop\orders\config\OpenApiConfig.class
+com\example\shop\orders\exception\RestExceptionHandler.class
